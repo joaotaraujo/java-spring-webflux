@@ -4,17 +4,17 @@ Nesta sessão vamos desenvolver uma API de gerenciamento de heróis utilizando S
 
 Para executar:
 
-**starts dynamoDB**
-```batch
+**Starts dynamoDB:**
+```bash
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
 ```
 
-**check tables**
-```batch
+**Check tables:**
+```bash
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 ```
 
-**swagger**
-```batch
+**Swagger at:**
+```bash
 http://localhost:8080/swagger-ui.html
 ```
